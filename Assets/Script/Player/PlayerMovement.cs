@@ -15,8 +15,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private CharacterController controller;
 
-    private Vector2 moveInput;
+    [SerializeField] private Vector2 moveInput;
     private Vector2 moveDir;
+    private bool isFacingUp;
 
     void Start()
     {
@@ -41,7 +42,16 @@ public class PlayerMovement : MonoBehaviour
     {
         controller.Move(moveSpeed * Time.deltaTime * moveDir); // Move the player using the CharacterController
         currentSpeed = controller.velocity.magnitude; // Update the current speed based on the CharacterController's velocity
+        AnimationVariableSetter();
+    }
+    public void AnimationVariableSetter()
+    {
+        if( moveInput.y == 1)
+            isFacingUp = true;
+        if(moveInput.y == -1)
+            isFacingUp = false;
         animator.SetFloat("Speed", currentSpeed); // Shows the animator how fast the player is
+        animator.SetBool("isFacingUp", isFacingUp);
     }
 
     private void Update()
