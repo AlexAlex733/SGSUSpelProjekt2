@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 1849338117}
   - component: {fileID: 1849338116}
   - component: {fileID: 1849338115}
+  - component: {fileID: 1849338118}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -226,7 +227,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
+  currentSpeed: 0
   animator: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!114 &1849338116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,6 +301,28 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1849338118
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849338112}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2084785977
 GameObject:
   m_ObjectHideFlags: 0
