@@ -45,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Move(); // Call the Move method every frame to update the player's position
+        animator.SetFloat("Speed", currentSpeed); // Shows the animator how fast the player is
     }
 
 }
