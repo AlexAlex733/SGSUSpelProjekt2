@@ -1,3 +1,4 @@
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -40,12 +41,12 @@ public class PlayerMovement : MonoBehaviour
     {
         controller.Move(moveSpeed * Time.deltaTime * moveDir); // Move the player using the CharacterController
         currentSpeed = controller.velocity.magnitude; // Update the current speed based on the CharacterController's velocity
+        animator.SetFloat("Speed", currentSpeed); // Shows the animator how fast the player is
     }
 
     private void Update()
     {
         Move(); // Call the Move method every frame to update the player's position
-        animator.SetFloat("Speed", currentSpeed); // Shows the animator how fast the player is
     }
 
 }
