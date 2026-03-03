@@ -228,9 +228,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
   currentSpeed: 0
+  moveInput: {x: 0, y: 0}
+  isFacingUp: 0
   animator: {fileID: 0}
   controller: {fileID: 0}
-  moveInput: {x: 0, y: 0}
+  player: {fileID: 0}
 --- !u!114 &1849338116
 MonoBehaviour:
   m_ObjectHideFlags: 0
