@@ -10,14 +10,16 @@ public class PlayerMovement : MonoBehaviour
     [Header("Player Movement")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float currentSpeed;
+    [SerializeField] private Vector2 moveInput;
+    private Vector2 moveDir;
+    [SerializeField] private bool isFacingUp;
 
     [Header("Player Components")]
     [SerializeField] private Animator animator;
     [SerializeField] private CharacterController controller;
 
-    [SerializeField] private Vector2 moveInput;
-    private Vector2 moveDir;
-    private bool isFacingUp;
+    [Header("Game Objects")]
+    [SerializeField] private GameObject player;
 
     void Start()
     {
@@ -46,17 +48,34 @@ public class PlayerMovement : MonoBehaviour
     }
     public void AnimationVariableSetter()
     {
-        if( moveInput.y == 1)
+        if(controller.velocity.y > 0) // Checks whether the player is going up or down.
             isFacingUp = true;
-        if(moveInput.y == -1)
+        if(controller.velocity.y < 0)
             isFacingUp = false;
         animator.SetFloat("Speed", currentSpeed); // Shows the animator how fast the player is
-        animator.SetBool("isFacingUp", isFacingUp);
+        animator.SetBool("isFacingUp", isFacingUp); // Shows the animator whether the player is going up or down
+    }
+    public void FlipCharacter()
+    {
+        if (controller.velocity.x > 0)
+        {
+            this.transform.rotation = Quaternion.Euler(0, 0, 0);
+            if (controller.velocity.x > 0 && isFacingUp)
+                isFacingUp = false ;
+        }
+        if (controller.velocity.x < 0)
+        {
+            this.transform.rotation = Quaternion.Euler(0, 180, 0);
+            if (controller.velocity.x < 0 && isFacingUp)
+                isFacingUp = false;
+        }
+
     }
 
     private void Update()
     {
         Move(); // Call the Move method every frame to update the player's position
+        FlipCharacter(); // Call the Flip function
     }
 
 }
