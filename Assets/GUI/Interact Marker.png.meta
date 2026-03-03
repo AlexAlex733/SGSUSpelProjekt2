@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c854f900d6ac27f469f94caec84acbae
+guid: bf38369ebfffd974ba862fe434a49c5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6349809679659015835
-    second: Proto_start_room_0
+      213: -3857586913463760273
+    second: Interact Marker_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Proto_start_room_0
+      name: Interact Marker_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 111
-        width: 136
-        height: 121
+        x: 0
+        y: 0
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56166943db1f0e7a0800000000000000
-      internalID: -6349809679659015835
+      spriteID: f6a0cccf329177ac0800000000000000
+      internalID: -3857586913463760273
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Proto_start_room_0: -6349809679659015835
+      Interact Marker_0: -3857586913463760273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
