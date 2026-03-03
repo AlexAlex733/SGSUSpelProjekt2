@@ -1,0 +1,2262 @@
+fileFormatVersion: 2
+guid: d327c010fecd2a449a6036dd54b64a1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6822226146988892773
+    second: key_pad_0
+  - first:
+      213: 737686610293023046
+    second: key_pad_1
+  - first:
+      213: 8964192316225242630
+    second: key_pad_2
+  - first:
+      213: 2878175906668550270
+    second: key_pad_3
+  - first:
+      213: 151807470470159301
+    second: key_pad_4
+  - first:
+      213: 5754743465819481633
+    second: key_pad_5
+  - first:
+      213: -9115251302714936313
+    second: key_pad_6
+  - first:
+      213: 8673027700159088779
+    second: key_pad_7
+  - first:
+      213: -8282552475579461180
+    second: key_pad_8
+  - first:
+      213: 3353539109963813221
+    second: key_pad_9
+  - first:
+      213: 6123712580536193049
+    second: key_pad_10
+  - first:
+      213: -3312591954058841536
+    second: key_pad_11
+  - first:
+      213: -2278632602183340320
+    second: key_pad_12
+  - first:
+      213: 1247286583305257574
+    second: key_pad_13
+  - first:
+      213: -40123525660508621
+    second: key_pad_14
+  - first:
+      213: 7713488551701882528
+    second: key_pad_15
+  - first:
+      213: -4375751144158545195
+    second: key_pad_16
+  - first:
+      213: -621334359019524514
+    second: key_pad_17
+  - first:
+      213: -4320768139759232245
+    second: key_pad_18
+  - first:
+      213: -4107921243288889723
+    second: key_pad_19
+  - first:
+      213: -6030237277570977964
+    second: key_pad_20
+  - first:
+      213: 4367407969631531005
+    second: key_pad_21
+  - first:
+      213: 8992862830485728942
+    second: key_pad_22
+  - first:
+      213: 6590088864776608003
+    second: key_pad_23
+  - first:
+      213: -9085329532171845252
+    second: key_pad_24
+  - first:
+      213: -7266557829187339618
+    second: key_pad_25
+  - first:
+      213: 3867197101906211474
+    second: key_pad_26
+  - first:
+      213: 8070362846029555708
+    second: key_pad_27
+  - first:
+      213: 1883524881735267144
+    second: key_pad_28
+  - first:
+      213: 1302962388327791526
+    second: key_pad_29
+  - first:
+      213: -8365949881682628168
+    second: key_pad_30
+  - first:
+      213: -2035053578304678412
+    second: key_pad_31
+  - first:
+      213: 2976732558513747860
+    second: key_pad_32
+  - first:
+      213: 4874913086429360003
+    second: key_pad_33
+  - first:
+      213: 8856333680554103475
+    second: key_pad_34
+  - first:
+      213: -1123204552540565764
+    second: key_pad_35
+  - first:
+      213: 5449049493569895914
+    second: key_pad_36
+  - first:
+      213: -703032047385590383
+    second: key_pad_37
+  - first:
+      213: -7609175622244944017
+    second: key_pad_38
+  - first:
+      213: -1726144150356732702
+    second: key_pad_39
+  - first:
+      213: -6702158778708523636
+    second: key_pad_40
+  - first:
+      213: -8372908664325432660
+    second: key_pad_41
+  - first:
+      213: -2678001360985164439
+    second: key_pad_42
+  - first:
+      213: 5961157987475836927
+    second: key_pad_43
+  - first:
+      213: 1859420379029136980
+    second: key_pad_44
+  - first:
+      213: -7624850002213916310
+    second: key_pad_45
+  - first:
+      213: 2888146374625652028
+    second: key_pad_46
+  - first:
+      213: 1990876223606176340
+    second: key_pad_47
+  - first:
+      213: 6895429772343087433
+    second: key_pad_48
+  - first:
+      213: -7955331262086238266
+    second: key_pad_49
+  - first:
+      213: -751028147547362166
+    second: key_pad_50
+  - first:
+      213: 8388984071739791787
+    second: key_pad_51
+  - first:
+      213: -5718165603962294874
+    second: key_pad_52
+  - first:
+      213: -5450317753825218238
+    second: key_pad_53
+  - first:
+      213: 7344077152091396589
+    second: key_pad_54
+  - first:
+      213: 1014044001618355278
+    second: key_pad_55
+  - first:
+      213: 8037994719149131673
+    second: key_pad_56
+  - first:
+      213: -6485269250788993799
+    second: key_pad_57
+  - first:
+      213: -2044932214989652975
+    second: key_pad_58
+  - first:
+      213: -4644358109824028411
+    second: key_pad_59
+  - first:
+      213: -1107121342542918475
+    second: key_pad_60
+  - first:
+      213: -8402260627714187733
+    second: key_pad_61
+  - first:
+      213: 524757056420067489
+    second: key_pad_62
+  - first:
+      213: 4000964608079776184
+    second: key_pad_63
+  - first:
+      213: -4765988253581512239
+    second: key_pad_64
+  - first:
+      213: -738760135416209441
+    second: key_pad_65
+  - first:
+      213: 5947527656267688379
+    second: key_pad_66
+  - first:
+      213: 2100950386494407173
+    second: key_pad_67
+  - first:
+      213: -1708051324698614355
+    second: key_pad_68
+  - first:
+      213: 7827831014952157382
+    second: key_pad_69
+  - first:
+      213: 3113279681687641521
+    second: key_pad_70
+  - first:
+      213: -1773406068385639047
+    second: key_pad_71
+  - first:
+      213: -5397857943634054846
+    second: key_pad_72
+  - first:
+      213: -2393209152950187193
+    second: key_pad_73
+  - first:
+      213: -3642087614857924352
+    second: key_pad_74
+  - first:
+      213: 8651490895619037562
+    second: key_pad_75
+  - first:
+      213: -2190393233703299291
+    second: key_pad_76
+  - first:
+      213: 5174423259038875286
+    second: key_pad_77
+  - first:
+      213: 8421821751784016842
+    second: key_pad_78
+  - first:
+      213: -2272777418475252044
+    second: key_pad_79
+  - first:
+      213: 7458641852968738185
+    second: key_pad_80
+  - first:
+      213: 2343946202949554607
+    second: key_pad_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: key_pad_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 587
+        width: 391
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d585b07759251a0800000000000000
+      internalID: -6822226146988892773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 688
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641e31a401acc3a00800000000000000
+      internalID: 737686610293023046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_2
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 669
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60644e2da65376c70800000000000000
+      internalID: 8964192316225242630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 651
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e781116ecb551f720800000000000000
+      internalID: 2878175906668550270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_4
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 650
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbdf9f07145b1200800000000000000
+      internalID: 151807470470159301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 687
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126aba531b4fcdf40800000000000000
+      internalID: 5754743465819481633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_6
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 687
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704724f1c3f108180800000000000000
+      internalID: -9115251302714936313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_7
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 667
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b880b1bddb8cc5870800000000000000
+      internalID: 8673027700159088779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 626
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1dd8308667e0d80800000000000000
+      internalID: -8282552475579461180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_9
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 587
+        width: 115
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561d5cd7d0a2a8e20800000000000000
+      internalID: 3353539109963813221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_10
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 669
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910537da52ccbf450800000000000000
+      internalID: 6123712580536193049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_11
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 651
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042718c2b2f4702d0800000000000000
+      internalID: -3312591954058841536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_12
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 650
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eeec3598bba060e0800000000000000
+      internalID: -2278632602183340320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_13
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 687
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66245030a804f4110800000000000000
+      internalID: 1247286583305257574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_14
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 687
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e7ed1bdd3717ff0800000000000000
+      internalID: -40123525660508621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_15
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 667
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6ab3f48f0db0b60800000000000000
+      internalID: 7713488551701882528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_16
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 626
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dabbe2a4853643c0800000000000000
+      internalID: -4375751144158545195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 488
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e65e341b39067f0800000000000000
+      internalID: -621334359019524514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 469
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b53d0f44c8904c0800000000000000
+      internalID: -4320768139759232245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 450
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5861c78d46bbdf6c0800000000000000
+      internalID: -4107921243288889723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 488
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f2017452b405ca0800000000000000
+      internalID: -6030237277570977964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_21
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 487
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffe81ba8662c9c30800000000000000
+      internalID: 4367407969631531005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 467
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae6aec19111dcc70800000000000000
+      internalID: 8992862830485728942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_23
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 488
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309544f18e2b47b50800000000000000
+      internalID: 6590088864776608003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_24
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 469
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7108873dec6ae180800000000000000
+      internalID: -9085329532171845252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_25
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 450
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a747b7720082b90800000000000000
+      internalID: -7266557829187339618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_26
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 487
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2923a8f564b0ba530800000000000000
+      internalID: 3867197101906211474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_27
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 488
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf72a16ff30bfff60800000000000000
+      internalID: 8070362846029555708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_28
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 467
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843b07d86ef932a10800000000000000
+      internalID: 1883524881735267144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_29
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 488
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abf8f7836d051210800000000000000
+      internalID: 1302962388327791526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_30
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 470
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1f59548ec26eb80800000000000000
+      internalID: -8365949881682628168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_31
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 450
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5134e7d8902c3e0800000000000000
+      internalID: -2035053578304678412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_32
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 487
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4973d859d7a7f4920800000000000000
+      internalID: 2976732558513747860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_33
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 487
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f668baf9b27a340800000000000000
+      internalID: 4874913086429360003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_34
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 467
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b251c14f8408ea70800000000000000
+      internalID: 8856333680554103475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_35
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 387
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfec7b319639960f0800000000000000
+      internalID: -1123204552540565764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_36
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 426
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed71c3e4a9ee9b40800000000000000
+      internalID: 5449049493569895914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_37
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 387
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195cdd5e3145e36f0800000000000000
+      internalID: -703032047385590383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_38
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 426
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6737823617c66690800000000000000
+      internalID: -7609175622244944017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_39
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 387
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e45ede6a018b08e0800000000000000
+      internalID: -1726144150356732702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_40
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 426
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8500dea9162df2a0800000000000000
+      internalID: -6702158778708523636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_41
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 288
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa971e6ee37dcb80800000000000000
+      internalID: -8372908664325432660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_42
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 269
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965777a63f3d5dad0800000000000000
+      internalID: -2678001360985164439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_43
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 268
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffca752b994ab250800000000000000
+      internalID: 5961157987475836927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 287
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456672cabfcfdc910800000000000000
+      internalID: 1859420379029136980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_45
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 287
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61376832571f2690800000000000000
+      internalID: -7624850002213916310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_46
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 267
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3de4ee53d1c41820800000000000000
+      internalID: 2888146374625652028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_47
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 288
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a31d3906301ab10800000000000000
+      internalID: 1990876223606176340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_48
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 269
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941992a28dc71bf50800000000000000
+      internalID: 6895429772343087433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_49
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 250
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf2ac4cd5cf89190800000000000000
+      internalID: -7955331262086238266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_50
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 287
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cae1101efc395f0800000000000000
+      internalID: -751028147547362166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_51
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 287
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9d5760198ab6470800000000000000
+      internalID: 8388984071739791787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_52
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 267
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad68f8edaef4a0b0800000000000000
+      internalID: -5718165603962294874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_53
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 288
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2413e3241e49c54b0800000000000000
+      internalID: -5450317753825218238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_54
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 269
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9587d52476be560800000000000000
+      internalID: 7344077152091396589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_55
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 250
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44e31795ab921e00800000000000000
+      internalID: 1014044001618355278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_56
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 287
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99789552c91bc8f60800000000000000
+      internalID: 8037994719149131673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_57
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 287
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f455f11af1bff5a0800000000000000
+      internalID: -6485269250788993799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_58
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 267
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cf9c72cf0fe93e0800000000000000
+      internalID: -2044932214989652975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_59
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 187
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501fb3ee7eceb8fb0800000000000000
+      internalID: -4644358109824028411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_60
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 250
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcc9763107b2a0f0800000000000000
+      internalID: -1107121342542918475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_61
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 226
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e58d6e97c256b80800000000000000
+      internalID: -8402260627714187733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_62
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 187
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a83c4533cf484700800000000000000
+      internalID: 524757056420067489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_63
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 226
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9418fec18468730800000000000000
+      internalID: 4000964608079776184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_64
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 252
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1f6954feecbddb0800000000000000
+      internalID: -4765988253581512239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_65
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 226
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf1c4a22956fb5f0800000000000000
+      internalID: -738760135416209441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_66
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 88
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9a5ab54ecd98250800000000000000
+      internalID: 5947527656267688379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_67
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 69
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50208b5ce33182d10800000000000000
+      internalID: 2100950386494407173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_68
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 51
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5243dae58cb48e0800000000000000
+      internalID: -1708051324698614355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_69
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 87
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c04200a5da02ac60800000000000000
+      internalID: 7827831014952157382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_70
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 87
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdde692067943b20800000000000000
+      internalID: 3113279681687641521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_71
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 67
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9751a53a3989367e0800000000000000
+      internalID: -1773406068385639047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_72
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 88
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241fba1acc4f615b0800000000000000
+      internalID: -5397857943634054846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_73
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 69
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bc03584fc99ced0800000000000000
+      internalID: -2393209152950187193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_74
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 50
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0013b836c94b47dc0800000000000000
+      internalID: -3642087614857924352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_75
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 87
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7916eac125401870800000000000000
+      internalID: 8651490895619037562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_76
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 87
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52712ba85f82a91e0800000000000000
+      internalID: -2190393233703299291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_77
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 67
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ef780f98e3fc740800000000000000
+      internalID: 5174423259038875286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_78
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 51
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb8eb4334250e470800000000000000
+      internalID: 8421821751784016842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_79
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 26
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6d046caf87570e0800000000000000
+      internalID: -2272777418475252044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_80
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 51
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d10196f3b628760800000000000000
+      internalID: 7458641852968738185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key_pad_81
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 26
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa11f6f17ae578020800000000000000
+      internalID: 2343946202949554607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      key_pad_0: -6822226146988892773
+      key_pad_1: 737686610293023046
+      key_pad_10: 6123712580536193049
+      key_pad_11: -3312591954058841536
+      key_pad_12: -2278632602183340320
+      key_pad_13: 1247286583305257574
+      key_pad_14: -40123525660508621
+      key_pad_15: 7713488551701882528
+      key_pad_16: -4375751144158545195
+      key_pad_17: -621334359019524514
+      key_pad_18: -4320768139759232245
+      key_pad_19: -4107921243288889723
+      key_pad_2: 8964192316225242630
+      key_pad_20: -6030237277570977964
+      key_pad_21: 4367407969631531005
+      key_pad_22: 8992862830485728942
+      key_pad_23: 6590088864776608003
+      key_pad_24: -9085329532171845252
+      key_pad_25: -7266557829187339618
+      key_pad_26: 3867197101906211474
+      key_pad_27: 8070362846029555708
+      key_pad_28: 1883524881735267144
+      key_pad_29: 1302962388327791526
+      key_pad_3: 2878175906668550270
+      key_pad_30: -8365949881682628168
+      key_pad_31: -2035053578304678412
+      key_pad_32: 2976732558513747860
+      key_pad_33: 4874913086429360003
+      key_pad_34: 8856333680554103475
+      key_pad_35: -1123204552540565764
+      key_pad_36: 5449049493569895914
+      key_pad_37: -703032047385590383
+      key_pad_38: -7609175622244944017
+      key_pad_39: -1726144150356732702
+      key_pad_4: 151807470470159301
+      key_pad_40: -6702158778708523636
+      key_pad_41: -8372908664325432660
+      key_pad_42: -2678001360985164439
+      key_pad_43: 5961157987475836927
+      key_pad_44: 1859420379029136980
+      key_pad_45: -7624850002213916310
+      key_pad_46: 2888146374625652028
+      key_pad_47: 1990876223606176340
+      key_pad_48: 6895429772343087433
+      key_pad_49: -7955331262086238266
+      key_pad_5: 5754743465819481633
+      key_pad_50: -751028147547362166
+      key_pad_51: 8388984071739791787
+      key_pad_52: -5718165603962294874
+      key_pad_53: -5450317753825218238
+      key_pad_54: 7344077152091396589
+      key_pad_55: 1014044001618355278
+      key_pad_56: 8037994719149131673
+      key_pad_57: -6485269250788993799
+      key_pad_58: -2044932214989652975
+      key_pad_59: -4644358109824028411
+      key_pad_6: -9115251302714936313
+      key_pad_60: -1107121342542918475
+      key_pad_61: -8402260627714187733
+      key_pad_62: 524757056420067489
+      key_pad_63: 4000964608079776184
+      key_pad_64: -4765988253581512239
+      key_pad_65: -738760135416209441
+      key_pad_66: 5947527656267688379
+      key_pad_67: 2100950386494407173
+      key_pad_68: -1708051324698614355
+      key_pad_69: 7827831014952157382
+      key_pad_7: 8673027700159088779
+      key_pad_70: 3113279681687641521
+      key_pad_71: -1773406068385639047
+      key_pad_72: -5397857943634054846
+      key_pad_73: -2393209152950187193
+      key_pad_74: -3642087614857924352
+      key_pad_75: 8651490895619037562
+      key_pad_76: -2190393233703299291
+      key_pad_77: 5174423259038875286
+      key_pad_78: 8421821751784016842
+      key_pad_79: -2272777418475252044
+      key_pad_8: -8282552475579461180
+      key_pad_80: 7458641852968738185
+      key_pad_81: 2343946202949554607
+      key_pad_9: 3353539109963813221
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
