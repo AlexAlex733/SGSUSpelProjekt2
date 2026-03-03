@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+using UnityEditor.AdaptivePerformance.Editor;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -8,10 +8,11 @@ public class EnemyAI : MonoBehaviour
     [Header("Enemy Settings")]
     [SerializeField] private float moveSpeed;
     [SerializeField] private string currentState;
+    [SerializeField] private float waitTime;
 
     [Header("Enemy Configurations")]
     [SerializeField] Transform[] Patrolpoints; // The array of points
-
+    [SerializeField] private int i = 0;
 
     [Header("Enemy Components")]
     [SerializeField] private NavMeshAgent agent; // The navmeshagent that enemy should have
@@ -32,13 +33,16 @@ public class EnemyAI : MonoBehaviour
         agent.updateUpAxis = false;
         agent.speed = moveSpeed;
 
-        currentState = $"{States.Idling}";
     }
 
     void Patrol()
     {
-
+        currentState = $"{States.Patroling}";
+        agent.SetDestination(Patrolpoints[i].position); // ADD IENUMERATOR NEXT AFTER WAIT TIME MOVE ON TO THE NEXT POINT
     }
 
-
+    void Update()
+    {
+        Patrol();
+    }
 }

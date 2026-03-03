@@ -255,11 +255,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cafaf8777266a3c47890f21a2ecac299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
-  moveSpeed: 0
+  moveSpeed: 5
   currentState: 
   Patrolpoints:
-  - {fileID: 1849338114}
-  points: []
+  - {fileID: 222460685}
+  - {fileID: 1702178569}
+  - {fileID: 1611981444}
+  - {fileID: 4569965}
   agent: {fileID: 0}
 --- !u!195 &130109854
 NavMeshAgent:
