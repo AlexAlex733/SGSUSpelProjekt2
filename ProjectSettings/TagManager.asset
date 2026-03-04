@@ -6,6 +6,8 @@ TagManager:
   tags:
   - nextRoomCollider
   - MarkerTag
+  - NextRoom
+  - Transition
   layers:
   - Default
   - TransparentFX

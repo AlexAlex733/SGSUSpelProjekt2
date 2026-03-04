@@ -15,8 +15,6 @@ public class Interactionscript : MonoBehaviour
 
     private void Start()
     {
-        
-        showImage.SetActive(false);
         try
         {
             player = FindAnyObjectByType<PlayerMovement>().gameObject;
