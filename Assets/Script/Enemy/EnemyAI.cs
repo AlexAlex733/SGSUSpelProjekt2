@@ -8,20 +8,25 @@ public class EnemyAI : MonoBehaviour
     [Header("Enemy Settings")]
     [SerializeField] private float moveSpeed; // The movespeed of the enemy
     [SerializeField] private float currentSpeed; // the current speed of the enemy
-    [SerializeField] private float sphereRange; // the sphere cast range
+    [SerializeField] private float chaseRange; // the chase range
+    [SerializeField] private float attackRange; // the attack range
     [SerializeField] private float waitTime; // wait time on point
     [SerializeField] private float chaseTime; // the amount of time to chase the player before stopping
     [SerializeField] private int patrolPoint = 0; // current patrol point
-    [SerializeField] private string currentState; // the state of the enemy
-    [SerializeField] private bool isChasingPlayer; // if the enemy is chasing a player
-    [SerializeField] private bool isEnemy; // if the enemy is an enemy of the player
+    [SerializeField] private States currentState; // the state of the enemy
+    [SerializeField] private bool isChasingPlayer; // this is to make the agent aka enemy not follow patrol route when it is chasing the player
+    [SerializeField] private bool isAttackingPlayer; // this is to check if the enemy is attacking
+    [SerializeField] private bool isEnemy; // if the enemy is an enemy of the player and can do damage
 
 
     [Header("Enemy Configurations")]
-    [SerializeField] Transform[] Patrolpoints; // The array of points
+    [SerializeField] Transform[] patrolpoints; // The array of points
     [SerializeField] private Transform player;
+
     private RaycastHit hit; // hit info
-    private Ray ray;
+    private Ray ray; // the ray info
+
+    private bool isWaiting = false; // this is for not triggering EPatrol 100b times
 
 
     [Header("Enemy Components")]
@@ -47,58 +52,71 @@ public class EnemyAI : MonoBehaviour
 
     void Patrol()
     {
-        if (!isChasingPlayer)
+        if (isChasingPlayer || isAttackingPlayer)
+            return;
+
+        currentState = States.Patroling;
+        agent.SetDestination(patrolpoints[patrolPoint].transform.position); // we want to set destination to the point
+
+        if (Vector3.Distance(this.transform.position, patrolpoints[patrolPoint].transform.position) < 1f) // check if the agent or enemy is close to the point by 1 and then call IEnumerator for waiting
         {
-            if (Patrolpoints.Length > 0)
+            if (!isWaiting)
             {
-                agent.SetDestination(Patrolpoints[patrolPoint].position);
-                currentState = $"{States.Patroling}";
-
-                if (this.transform.position == Patrolpoints[patrolPoint].position || Vector3.Distance(this.transform.position, Patrolpoints[patrolPoint].position) < 2f)
-                {
-                    StartCoroutine(EPatrol());
-                    patrolPoint++;
-                }
-
-                if (patrolPoint == Patrolpoints.Length)
-                {
-                    patrolPoint = 0;
-                }
+                StartCoroutine(EPatrol());
             }
         }
     }
 
-    void Detect()
+    void Chase() 
     {
-        ray.origin = this.transform.position;
-
-        for (int i = 0; i < 5; i++)
+        if (Vector3.Distance(this.transform.position, player.transform.position) < chaseRange)
         {
-            ray.direction = new Vector3(this.transform.position.x, this.transform.position.y);
+            isChasingPlayer = true;
+            agent.SetDestination(player.transform.position);
+            currentState = States.Chasing;
+            Debug.Log("Player Has Been Detected!");
+        }
+        else
+        {
+            isChasingPlayer = false;
+        }
 
-            Physics.Raycast(ray, out hit);
+        if (Vector3.Distance(this.transform.position, player.transform.position) < attackRange)
+        {
+            isChasingPlayer = false;
+            isAttackingPlayer = true;
+            agent.SetDestination(player.transform.position);
+            Attack();
+        }
+        else
+        {
+            isAttackingPlayer = false;
         }
     }
 
-
-    void EnemyState()
+    void Attack() 
     {
-        if (currentSpeed <= 0)
-        {
-            currentState = $"{States.Idling}";
-        }
-
-        if (currentSpeed > 0)
-        {
-            currentState = $"{States.Patroling}";
-        }
+        currentState = States.Attacking;
+        Debug.Log("Attacking Player");
     }
 
     IEnumerator EPatrol()
     {
+        isWaiting = true;
         agent.isStopped = true;
+        currentState = States.Idling;
+
         yield return new WaitForSeconds(waitTime);
+
+        patrolPoint++;
+
+        if (patrolPoint == patrolpoints.Length)
+        {
+            patrolPoint = 0;
+        }
+
         agent.isStopped = false;
+        isWaiting = false;
     }
 
     void Update()
@@ -106,7 +124,6 @@ public class EnemyAI : MonoBehaviour
         currentSpeed = agent.velocity.magnitude;
         this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, 0);
         Patrol();
-        Detect();
-        EnemyState();
+        Chase();
     }
 }
