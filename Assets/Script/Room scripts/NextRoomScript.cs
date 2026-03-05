@@ -22,7 +22,7 @@ public class NextRoomScript : MonoBehaviour
     }
     private void TeleportToNextRoom()
     {
-        Transition.Instance.StartTransition();
+        //Transition.Instance.StartTransition();
         SceneManager.LoadScene(roomNumber);
         player.GetComponent<CharacterController>().enabled = false;
         player.transform.position = nextPlayerPosition;
