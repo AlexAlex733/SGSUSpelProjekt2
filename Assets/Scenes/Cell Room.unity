@@ -741,7 +741,6 @@ MonoBehaviour:
   showImage: {fileID: 0}
   interactionMarker: {fileID: 0}
   player: {fileID: 0}
-  markerExist: 0
   offset: {x: 75, y: 75, z: 0}
 --- !u!212 &769228450
 SpriteRenderer:
@@ -1197,6 +1196,34 @@ PrefabInstance:
     - target: {fileID: 5749341634170542873, guid: 326047d8a17ee41439fecbd4bc427b6f, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865670960015721207, guid: 326047d8a17ee41439fecbd4bc427b6f, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865670960015721207, guid: 326047d8a17ee41439fecbd4bc427b6f, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_ActionId
+      value: a06c2e9d-8754-4169-8cc5-5eb024689872
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865670960015721207, guid: 326047d8a17ee41439fecbd4bc427b6f, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_ActionName
+      value: 'Interaction/Interact[/Keyboard/e]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865670960015721207, guid: 326047d8a17ee41439fecbd4bc427b6f, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865670960015721207, guid: 326047d8a17ee41439fecbd4bc427b6f, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865670960015721207, guid: 326047d8a17ee41439fecbd4bc427b6f, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: 9758ae2af89015c418d08992684c69a8, type: 3}
+    - target: {fileID: 7865670960015721207, guid: 326047d8a17ee41439fecbd4bc427b6f, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8166994950942450838, guid: 326047d8a17ee41439fecbd4bc427b6f, type: 3}
       propertyPath: m_LocalPosition.x
