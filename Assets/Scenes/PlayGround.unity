@@ -258,15 +258,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   moveSpeed: 5
   currentSpeed: 0
-  chaseRange: 0
-  attackRange: 0
+  chaseRange: 4
+  attackRange: 2
   waitTime: 5
   chaseTime: 10
   patrolPoint: 0
   currentState: 0
   isChasingPlayer: 0
   isAttackingPlayer: 0
-  isEnemy: 0
   patrolpoints:
   - {fileID: 222460685}
   - {fileID: 1702178569}
@@ -491,7 +490,7 @@ GameObject:
   - component: {fileID: 286727692}
   - component: {fileID: 286727691}
   m_Layer: 0
-  m_Name: Pond (2)
+  m_Name: Pond3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -621,7 +620,7 @@ GameObject:
   - component: {fileID: 335636901}
   - component: {fileID: 335636900}
   m_Layer: 0
-  m_Name: Pond (1)
+  m_Name: Pond1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -983,7 +982,7 @@ GameObject:
   - component: {fileID: 1394887379}
   - component: {fileID: 1394887378}
   m_Layer: 0
-  m_Name: Pond (3)
+  m_Name: Pond2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1175,7 +1174,7 @@ GameObject:
   - component: {fileID: 1776492588}
   - component: {fileID: 1776492587}
   m_Layer: 0
-  m_Name: Walls (1)
+  m_Name: Wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1305,7 +1304,7 @@ GameObject:
   - component: {fileID: 1785202880}
   - component: {fileID: 1785202879}
   m_Layer: 0
-  m_Name: Walls (2)
+  m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1939,7 +1938,7 @@ GameObject:
   - component: {fileID: 2142362352}
   - component: {fileID: 2142362351}
   m_Layer: 0
-  m_Name: Walls (3)
+  m_Name: Wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

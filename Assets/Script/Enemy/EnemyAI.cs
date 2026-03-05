@@ -16,7 +16,6 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private States currentState; // the state of the enemy
     [SerializeField] private bool isChasingPlayer; // this is to make the agent aka enemy not follow patrol route when it is chasing the player
     [SerializeField] private bool isAttackingPlayer; // this is to check if the enemy is attacking
-    [SerializeField] private bool isEnemy; // if the enemy is an enemy of the player and can do damage
 
 
     [Header("Enemy Configurations")]
