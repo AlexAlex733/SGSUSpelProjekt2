@@ -8,6 +8,8 @@ TagManager:
   - MarkerTag
   - NextRoom
   - Transition
+  - OpenDoor
+  - ClosedDoor
   layers:
   - Default
   - TransparentFX

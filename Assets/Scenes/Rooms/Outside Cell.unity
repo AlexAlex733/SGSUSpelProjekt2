@@ -390,7 +390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8732341980872854633, guid: 9aaf7450bab1fdf4e84d01c60bd0306e, type: 3}
       propertyPath: nextPlayerPosition.y
-      value: -2
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -919,8 +919,8 @@ Transform:
   m_GameObject: {fileID: 1818500475}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.55575, y: 0.38865, z: 0}
-  m_LocalScale: {x: 17.922, y: 10.5218, z: 1}
+  m_LocalPosition: {x: -0.3, y: 0.3, z: 0}
+  m_LocalScale: {x: 38.82224, y: 24.960926, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 850910218}

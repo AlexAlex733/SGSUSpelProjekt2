@@ -3,21 +3,16 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Timeline;
 
-public class Interactionscript : MonoBehaviour
+public class Interactionscript : Singleton<Interactionscript>
 {
     [Header("References")]
-    [SerializeField] private GameObject currentAction;
     [SerializeField] private GameObject interactionMarker;
     [SerializeField] public GameObject player;
-
-    [Header("Variables")]
-    [SerializeField] private bool actionAvailable = false;
 
     private void Start()
     {
         try
         {
-            currentAction.SetActive(false);
             player = FindAnyObjectByType<PlayerMovement>().gameObject;
             interactionMarker = player.transform.GetChild(0).gameObject;
         }
@@ -35,6 +30,7 @@ public class Interactionscript : MonoBehaviour
     {
         MarkerInstantiate(false);
     }
+
     public void MarkerInstantiate(bool enter)
     {
         GameObject marker = null;
