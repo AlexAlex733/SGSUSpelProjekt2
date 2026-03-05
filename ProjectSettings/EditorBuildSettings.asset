@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PlayGround.unity
     guid: 1f843d50ea6ff4440aaab72a554972ee
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: e3073fe1aa611cb41a9db63fa94c1339
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Cell Room.unity
     guid: 4d9cdde4d17238a4cb0be4538ef87686
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Rooms/Outside Cell.unity
     guid: fc9ad325dfd38d74bb219ad2e2746ebd
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Rooms/Long Corridor.unity
     guid: 5bee2938aa1a73748889148946ca6436
   m_configObjects:

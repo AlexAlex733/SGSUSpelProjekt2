@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Timeline;
 
-public class Interactionscript : Singleton<Interactionscript>
+public class Interactionscript : Duoton<Interactionscript>
 {
     [Header("References")]
     [SerializeField] private GameObject interactionMarker;

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Inactivestart : MonoBehaviour
 {
-    private void Start()
+    private void Awake()
     {
         Invoke(nameof(Inactiveactive), 0.05f);
     }

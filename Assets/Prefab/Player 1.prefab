@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8209253849972696652}
   - component: {fileID: 5063735891846894112}
   - component: {fileID: 8164971551282280589}
+  - component: {fileID: 3495580196501006969}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -267,7 +268,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1abb8d0b7f0e69e46adcb0906c048cc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_PlayerInteract
-  interactDistance: 2
+  interactDistance: 0.3
+--- !u!114 &3495580196501006969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722612026824791513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d89a9ffb9ef43944a29da3ad07377a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Playerconditions
+  starterKey: 0
 --- !u!1 &7285926257404561085
 GameObject:
   m_ObjectHideFlags: 0

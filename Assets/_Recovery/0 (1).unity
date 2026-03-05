@@ -446,7 +446,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Buttonpressscript
   player: {fileID: 1722612026824791513, guid: 1cbf8c61cd5f0884cacf821d548a04e7, type: 3}
-  cam: {fileID: 8453453153291151606, guid: 98df8fb9e05dc4d4dafb1f90cbdb5bc3, type: 3}
 --- !u!1 &1212399366
 GameObject:
   m_ObjectHideFlags: 0
