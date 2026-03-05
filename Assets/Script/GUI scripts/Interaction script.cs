@@ -10,7 +10,6 @@ public class Interactionscript : MonoBehaviour
     [SerializeField] public GameObject player;
 
     [Header("Variables")]
-    [SerializeField] private bool markerExist = false;
     [SerializeField] private Vector3 offset = new Vector3(75f, 75f, 0);
 
     private void Start()
