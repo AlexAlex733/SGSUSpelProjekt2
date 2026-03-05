@@ -33,7 +33,6 @@ public class Interactionscript : MonoBehaviour
     {
         MarkerInstantiate(false);
     }
-
     public void MarkerInstantiate(bool enter)
     {
         GameObject marker = null;
