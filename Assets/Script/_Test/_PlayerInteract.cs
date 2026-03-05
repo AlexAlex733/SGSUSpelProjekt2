@@ -9,11 +9,10 @@ public class _PlayerInteract : MonoBehaviour
     
     public void OnInteract(InputAction.CallbackContext context)
     {
-        Debug.Log("Pressed E");
+        //Debug.Log("Pressed E");
 
         if (context.performed)
         {
-            Debug.Log(context.performed.ToString());
             TryInteract();
         }
     }
