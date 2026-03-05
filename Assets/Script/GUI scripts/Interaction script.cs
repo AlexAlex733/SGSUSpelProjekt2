@@ -1,27 +1,29 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Timeline;
 
 public class Interactionscript : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private GameObject showImage;
+    [SerializeField] private GameObject currentAction;
     [SerializeField] private GameObject interactionMarker;
     [SerializeField] public GameObject player;
 
     [Header("Variables")]
-    [SerializeField] private Vector3 offset = new Vector3(75f, 75f, 0);
+    [SerializeField] private bool actionAvailable = false;
 
     private void Start()
     {
         try
         {
+            currentAction.SetActive(false);
             player = FindAnyObjectByType<PlayerMovement>().gameObject;
             interactionMarker = player.transform.GetChild(0).gameObject;
         }
         catch
         {
-            Debug.Log("Reference has failed");
+            Debug.Log("Reference has failed or image doesn't exist");
         }
     }
 
@@ -47,10 +49,5 @@ public class Interactionscript : MonoBehaviour
         {
             Destroy(GameObject.FindWithTag("MarkerTag"), 0.00001f);
         }
-    }
-
-    private void Update()
-    {
-
     }
 }
