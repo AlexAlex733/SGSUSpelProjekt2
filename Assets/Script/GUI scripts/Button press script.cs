@@ -7,9 +7,13 @@ public class Buttonpressscript : MonoBehaviour
     [SerializeField] GameObject cam;
     public void onPressMainMenu()
     {
-        Transition.Instance.StartTransition();
+        //Transition.Instance.StartTransition();
         Instantiate(player, new Vector3(0, 0, 0), Quaternion.identity);
         Instantiate(cam);
         SceneManager.LoadScene(1);
+    }
+    public void onPressExitButton()
+    {
+        Application.Quit();
     }
 }
