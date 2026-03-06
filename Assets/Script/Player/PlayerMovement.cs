@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
+    // Rami
     [Header("Player Movement")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float currentSpeed;
@@ -20,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Game Objects")]
     [SerializeField] private GameObject player;
 
-    void Start()
+    void Start() // Rami
     {
         try
         {
@@ -33,34 +34,40 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // Rami
     public void OnMove(InputAction.CallbackContext context)  // This method handles the player movement input //Fixed your speeling error
     {
         moveInput = context.ReadValue<Vector2>(); // Read the movement input from the player
         moveDir = new Vector2(moveInput.x, moveInput.y).normalized; // Normalize the movement direction to ensure consistent movement speed in all directions
     }
 
+    // Rami
     public void Move()
     {
-            controller.Move(moveSpeed * Time.deltaTime * moveDir); // Move the player using the CharacterController
-            currentSpeed = controller.velocity.magnitude; // Update the current speed based on the CharacterController's velocity
-            AnimationVariableSetter();
+        controller.Move(moveSpeed * Time.deltaTime * moveDir); // Move the player using the CharacterController
+        currentSpeed = controller.velocity.magnitude; // Update the current speed based on the CharacterController's velocity
+        AnimationVariableSetter();
     }
+
+    // Alexander
     public void AnimationVariableSetter()
     {
-        if(controller.velocity.y > 0) // Checks whether the player is going up or down.
+        if (controller.velocity.y > 0) // Checks whether the player is going up or down.
             isFacingUp = true;
-        if(controller.velocity.y < 0)
+        if (controller.velocity.y < 0)
             isFacingUp = false;
         animator.SetFloat("Speed", currentSpeed); // Shows the animator how fast the player is
         animator.SetBool("isFacingUp", isFacingUp); // Shows the animator whether the player is going up or down
     }
+
+    // Alexander
     public void FlipCharacter()
     {
         if (controller.velocity.x > 0)
         {
             this.transform.rotation = Quaternion.Euler(0, 0, 0);
             if (controller.velocity.x > 0 && isFacingUp)
-                isFacingUp = false ;
+                isFacingUp = false;
         }
         if (controller.velocity.x < 0)
         {
@@ -71,9 +78,10 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    // Alexander
     private void FixedUpdate()
     {
-           Move(); // Call the Move method every frame to update the player's position
-           FlipCharacter(); // Call the Flip function
+        Move(); // Call the Move method every frame to update the player's position
+        FlipCharacter(); // Call the Flip function
     }
 }
