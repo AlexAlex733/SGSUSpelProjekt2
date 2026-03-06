@@ -4,27 +4,32 @@ public class OutsideCelldoor : MonoBehaviour, IInteract
 {
     [SerializeField] GameObject doorImage;
     [SerializeField] GameObject behindDoor;
-    [SerializeField] bool isTriggered = false;
+    [SerializeField] static bool isTriggered = false;
+    private PlayerMovement playerMovement;
 
     private void Awake()
     {
         doorImage.SetActive(false);
         behindDoor.SetActive(false);
+        playerMovement = GameObject.FindWithTag("Player").GetComponent<PlayerMovement>();
     }
     public void OnInteract()
     {
         Debug.Log("Is this even working? " + isTriggered);
-        if (!isTriggered)
+
+        isTriggered = !isTriggered;
+
+        if (isTriggered)
         {
             doorImage.SetActive(true);
             behindDoor.SetActive(true);
-            isTriggered = true;
+            playerMovement.enabled = false;
         }
-        if (isTriggered)
+        if (!isTriggered)
         {
             doorImage.SetActive(false);
             behindDoor.SetActive(false);
-            isTriggered = false;
+            playerMovement.enabled = true;
         }
     }
 }

@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void OnMove(InputAction.CallbackContext context)  // This method handles the player movement inptu
+    public void OnMove(InputAction.CallbackContext context)  // This method handles the player movement input //Fixed your speeling error
     {
         moveInput = context.ReadValue<Vector2>(); // Read the movement input from the player
         moveDir = new Vector2(moveInput.x, moveInput.y).normalized; // Normalize the movement direction to ensure consistent movement speed in all directions
@@ -42,9 +42,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move()
     {
-        controller.Move(moveSpeed * Time.deltaTime * moveDir); // Move the player using the CharacterController
-        currentSpeed = controller.velocity.magnitude; // Update the current speed based on the CharacterController's velocity
-        AnimationVariableSetter();
+            controller.Move(moveSpeed * Time.deltaTime * moveDir); // Move the player using the CharacterController
+            currentSpeed = controller.velocity.magnitude; // Update the current speed based on the CharacterController's velocity
+            AnimationVariableSetter();
     }
     public void AnimationVariableSetter()
     {
@@ -72,10 +72,9 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        Move(); // Call the Move method every frame to update the player's position
-        FlipCharacter(); // Call the Flip function
+           Move(); // Call the Move method every frame to update the player's position
+           FlipCharacter(); // Call the Flip function
     }
-
 }
