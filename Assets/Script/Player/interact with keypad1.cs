@@ -3,7 +3,7 @@ using UnityEngine;
 public class interactwithkeypad1 : MonoBehaviour
 {
     [SerializeField] GameObject Keypad;
-    public bool TurnOffKeypad;
+    public bool TurnOffKeypad = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
