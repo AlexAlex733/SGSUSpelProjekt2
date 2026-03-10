@@ -11,7 +11,7 @@ public class Interactionscript : Duoton<Interactionscript>
 
     private void Start()
     {
-        try
+        try //Tries to get the components and the scripts for the code to work - Alexander
         {
             player = FindAnyObjectByType<PlayerMovement>().gameObject;
             interactionMarker = player.transform.GetChild(0).gameObject;
@@ -22,16 +22,16 @@ public class Interactionscript : Duoton<Interactionscript>
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) //Activates a marker when the player enter a collider - Alexander
     {
         MarkerInstantiate(true);
     }
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other) // Deactivates the marker when the collider area is left - Alexander
     {
         MarkerInstantiate(false);
     }
 
-    public void MarkerInstantiate(bool enter)
+    public void MarkerInstantiate(bool enter) //The code for creating and destroying the marker - Alexander
     {
         GameObject marker = null;
         if (enter)

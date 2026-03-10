@@ -5,14 +5,14 @@ public class Buttonpressscript : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] GameObject cam;
-    public void onPressMainMenu()
+    public void onPressMainMenu() // creates a new player when the start button is pressed and starts the game - Alexander
     {
         //Transition.Instance.StartTransition();
         Instantiate(player, new Vector3(0, 0, 0), Quaternion.identity);
         Instantiate(cam);
         SceneManager.LoadScene(1);
     }
-    public void onPressExitButton()
+    public void onPressExitButton() //Exits the game- Alexander.
     {
         Application.Quit();
     }
