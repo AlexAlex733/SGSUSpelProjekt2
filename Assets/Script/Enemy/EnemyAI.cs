@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 // Made By Rami
 [RequireComponent(typeof(NavMeshAgent))]
@@ -83,7 +84,7 @@ public class EnemyAI : MonoBehaviour
         if (Vector3.Distance(this.transform.position, player.transform.position) < chaseRange) // check the distance 
         {
             isChasingPlayer = true;
-            agent.SetDestination(player.transform.position);
+            agent.SetDestination(player.transform.position - new Vector3(2,2,2));
             currentState = States.Chasing;
             Debug.Log("Player Has Been Detected!");
         }
@@ -108,7 +109,8 @@ public class EnemyAI : MonoBehaviour
     void Attack() // attack
     {
         currentState = States.Attacking;
-        Debug.Log("Attacking Player"); 
+        Debug.Log("Attacking Player");
+        SceneManager.LoadScene("DeathScene");
     }
 
     IEnumerator EPatrol()
