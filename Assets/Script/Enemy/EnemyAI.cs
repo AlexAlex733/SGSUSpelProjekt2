@@ -84,7 +84,7 @@ public class EnemyAI : MonoBehaviour
         if (Vector3.Distance(this.transform.position, player.transform.position) < chaseRange) // check the distance 
         {
             isChasingPlayer = true;
-            agent.SetDestination(player.transform.position - new Vector3(2,2,2));
+            agent.SetDestination(player.transform.position);
             currentState = States.Chasing;
             Debug.Log("Player Has Been Detected!");
         }
@@ -110,7 +110,11 @@ public class EnemyAI : MonoBehaviour
     {
         currentState = States.Attacking;
         Debug.Log("Attacking Player");
-        SceneManager.LoadScene("DeathScene");
+        var camera = GameObject.FindWithTag("Camera");
+        Destroy(player.gameObject);
+        Destroy(camera.gameObject);
+        this.gameObject.SetActive(false);
+        SceneManager.LoadScene("Deathscreen");
     }
 
     IEnumerator EPatrol()
