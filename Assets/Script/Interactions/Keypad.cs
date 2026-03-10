@@ -12,7 +12,7 @@ public class Keypad: MonoBehaviour, IInteract
         playerMovement = GameObject.FindWithTag("Player").GetComponent<PlayerMovement>();
         keypad.SetActive(false);
     }
-    public void OnInteract()
+    public void OnInteract() //Allows the player to open up the keypad - ALexander
     {
         Debug.Log("Is this even working? " + isTriggered);
 
