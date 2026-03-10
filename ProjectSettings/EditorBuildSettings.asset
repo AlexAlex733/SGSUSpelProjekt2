@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: e3073fe1aa611cb41a9db63fa94c1339
   - enabled: 1
-    path: Assets/Scenes/Cell Room.unity
+    path: Assets/Scenes/Rooms/Cell Room.unity
     guid: 4d9cdde4d17238a4cb0be4538ef87686
   - enabled: 1
     path: Assets/Scenes/Rooms/Outside Cell.unity
@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rooms/Long Corridor.unity
     guid: 5bee2938aa1a73748889148946ca6436
+  - enabled: 1
+    path: Assets/Scenes/Rooms/dead t intersection.unity
+    guid: c75406fa01153d0409a4ba86b3a03fe4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Cafeteria.unity
+    guid: f4154190ffd8a0a41a55d495562a2575
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
