@@ -420,8 +420,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   moveSpeed: 5
   currentSpeed: 0
-  chaseRange: 0
-  attackRange: 0
+  chaseRange: 3
+  attackRange: 1.5
   waitTime: 5
   chaseTime: 10
   patrolPoint: 0
