@@ -1,7 +1,9 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
+// Made By Rami
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyAI : MonoBehaviour
 {
@@ -21,7 +23,7 @@ public class EnemyAI : MonoBehaviour
     [Header("Enemy Configurations")]
     [SerializeField] Transform[] patrolpoints; // The array of points
     [SerializeField] private Transform player;
-
+    [SerializeField] private Transform noPlayer;
     private RaycastHit hit; // hit info
     private Ray ray; // the ray info
 
@@ -47,31 +49,42 @@ public class EnemyAI : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         agent.speed = moveSpeed;
+
+        try // try do it so it doesnt crash the game
+        {
+            player = GameObject.FindWithTag("Player").transform;
+        }
+        catch (System.Exception ex)
+        {
+            noPlayer.position = new Vector3(0f, 0f, 0f);
+            player = noPlayer;
+            Debug.Log($"Error: {ex} and has been set to 0,0,0");
+        }
     }
 
-    void Patrol()
+    void Patrol() // this is for patroling
     {
-        if (isChasingPlayer || isAttackingPlayer)
+        if (isChasingPlayer || isAttackingPlayer) // a check to make sure it doesnt patrol when attack or chase
             return;
 
-        currentState = States.Patroling;
+        currentState = States.Patroling; // set the state
         agent.SetDestination(patrolpoints[patrolPoint].transform.position); // we want to set destination to the point
 
         if (Vector3.Distance(this.transform.position, patrolpoints[patrolPoint].transform.position) < 1f) // check if the agent or enemy is close to the point by 1 and then call IEnumerator for waiting
         {
-            if (!isWaiting)
+            if (!isWaiting) // not waiting then go to nexts
             {
                 StartCoroutine(EPatrol());
             }
         }
     }
 
-    void Chase() 
+    void Chase()  // chase function
     {
-        if (Vector3.Distance(this.transform.position, player.transform.position) < chaseRange)
+        if (Vector3.Distance(this.transform.position, player.transform.position) < chaseRange) // check the distance 
         {
             isChasingPlayer = true;
-            agent.SetDestination(player.transform.position);
+            agent.SetDestination(player.transform.position - new Vector3(2,2,2));
             currentState = States.Chasing;
             Debug.Log("Player Has Been Detected!");
         }
@@ -80,7 +93,7 @@ public class EnemyAI : MonoBehaviour
             isChasingPlayer = false;
         }
 
-        if (Vector3.Distance(this.transform.position, player.transform.position) < attackRange)
+        if (Vector3.Distance(this.transform.position, player.transform.position) < attackRange) // check the distance
         {
             isChasingPlayer = false;
             isAttackingPlayer = true;
@@ -93,10 +106,11 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    void Attack() 
+    void Attack() // attack
     {
         currentState = States.Attacking;
         Debug.Log("Attacking Player");
+        SceneManager.LoadScene("DeathScene");
     }
 
     IEnumerator EPatrol()

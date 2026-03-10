@@ -1,16 +1,15 @@
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class NextRoomScript : MonoBehaviour
 {
-    Animator animator;
+    Animator animator; //Made by Alexander
     [SerializeField] int roomNumber;
     [SerializeField] Vector3 nextPlayerPosition;
     [SerializeField] GameObject player;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) //If the player collides then load the next scene.
         {
             Debug.Log(other);
             if (player == null)
@@ -20,7 +19,7 @@ public class NextRoomScript : MonoBehaviour
             TeleportToNextRoom();
         }  
     }
-    private void TeleportToNextRoom()
+    private void TeleportToNextRoom() //Teleports the player before going to the next room.
     {
         //Transition.Instance.StartTransition();
         SceneManager.LoadScene(roomNumber);

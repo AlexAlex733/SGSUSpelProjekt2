@@ -6,7 +6,7 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (Instance != null && Instance != this) // Makes references to other classes easier but also destroys objects and gives them don't destroy on load - Rami
         {
             Destroy(gameObject);
         }
