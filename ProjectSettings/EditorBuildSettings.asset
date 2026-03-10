@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rooms/Long Corridor.unity
     guid: 5bee2938aa1a73748889148946ca6436
+  - enabled: 1
+    path: Assets/Scenes/Deathscreen.unity
+    guid: 5c5c171e0f38d73478e77ec913b9e653
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
