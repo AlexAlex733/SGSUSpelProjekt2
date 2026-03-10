@@ -1,24 +1,28 @@
+using TMPro;
 using UnityEngine;
 
 public class KeypadInteraction : MonoBehaviour
 {
-
-    public string unlockCode = "1234";
+    public TMP_Text keyPadText;
+    GameObject door;
+    public string unlockCode = "1937";
     [SerializeField] string inputCode = "";
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public void Awake()
     {
-        
+        door = GameObject.FindWithTag("Door");
+        keyPadText = GameObject.FindWithTag("KeypadUI").GetComponent<TMP_Text>();
     }
 
     public void ButtonInput (string input)
     {
         inputCode += input;
+        keyPadText.text = $"{inputCode}";
+        if (unlockCode == inputCode)
+        {
+            door.GetComponent<SpriteRenderer>().enabled = true;
+            door.GetComponent <BoxCollider>().enabled = false;
+            Debug.Log("The Door is open");
+        }
     }
 }

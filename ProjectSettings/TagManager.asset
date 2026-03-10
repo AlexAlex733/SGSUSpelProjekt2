@@ -11,6 +11,8 @@ TagManager:
   - OpenDoor
   - ClosedDoor
   - Keypad
+  - KeypadUI
+  - Door
   layers:
   - Default
   - TransparentFX

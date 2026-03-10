@@ -2,27 +2,20 @@ using UnityEngine;
 
 public class CellDoor : MonoBehaviour, IInteract
 {
-    private GameObject cellDoor;
-    private GameObject openDoor;
+    private GameObject door;
     Playerconditions playerconditions;
 
 
 
     private void Awake() //References - Alexander
     {
-        cellDoor = this.gameObject;
-        openDoor = GameObject.FindWithTag("OpenDoor");
+        door = this.gameObject;
         playerconditions = GameObject.FindWithTag("Player").GetComponent<Playerconditions>();
         if (playerconditions.starterKey) //If the player has a key then destroy the door collider.
         {
-            Destroy(cellDoor);
-            Invoke(nameof(OpenDoor), 0.1f);
+            door.GetComponent<SpriteRenderer>().enabled = true;
+            door.GetComponent<BoxCollider>().enabled = false;
         }
-    }
-
-    public void OpenDoor()
-    {
-        openDoor.SetActive(true);
     }
 
     public void OnInteract() //When the interact button is used then open the door- Alexander.
@@ -30,8 +23,8 @@ public class CellDoor : MonoBehaviour, IInteract
         if (playerconditions.starterKey)
         {
             Interactionscript.Instance.MarkerInstantiate(false);
-            cellDoor.SetActive(false);
-            openDoor.SetActive(true);
+            door.GetComponent<SpriteRenderer>().enabled = true;
+            door.GetComponent<BoxCollider>().enabled = false;
         }
     }
 }
