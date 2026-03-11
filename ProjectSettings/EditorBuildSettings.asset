@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rooms/Cafeteria.unity
     guid: f4154190ffd8a0a41a55d495562a2575
+  - enabled: 1
+    path: Assets/Scenes/Deathscreen.unity
+    guid: 5c5c171e0f38d73478e77ec913b9e653
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,3 +1,4 @@
+using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -48,7 +49,6 @@ public class PlayerMovement : MonoBehaviour
         currentSpeed = controller.velocity.magnitude; // Update the current speed based on the CharacterController's velocity
         AnimationVariableSetter();
     }
-
     // Alexander
     public void AnimationVariableSetter()
     {

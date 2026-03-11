@@ -114,7 +114,13 @@ public class EnemyAI : MonoBehaviour
         Destroy(player.gameObject);
         Destroy(camera.gameObject);
         this.gameObject.SetActive(false);
+        ResetStatic();
         SceneManager.LoadScene("Deathscreen");
+    }
+
+    void ResetStatic()
+    {
+        Keypad.isDoorCellOutsideOpen = false;
     }
 
     IEnumerator EPatrol()

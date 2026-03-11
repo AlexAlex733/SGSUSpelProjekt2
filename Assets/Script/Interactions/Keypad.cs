@@ -5,6 +5,7 @@ public class Keypad: MonoBehaviour, IInteract
     [SerializeField] private GameObject keypad;
     [SerializeField] private bool isTriggered;
     [SerializeField] private PlayerMovement playerMovement;
+    public static bool isDoorCellOutsideOpen;
 
     private void Awake()
     {

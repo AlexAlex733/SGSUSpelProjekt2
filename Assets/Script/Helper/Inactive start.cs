@@ -21,6 +21,11 @@ public class Inactivestart : MonoBehaviour
         {
             door.GetComponent<SpriteRenderer>().enabled = false;
             door.GetComponent<BoxCollider>().enabled = true;
+            if(Keypad.isDoorCellOutsideOpen)
+            {
+                door.GetComponent<SpriteRenderer>().enabled = true;
+                door.GetComponent<BoxCollider>().enabled = false;
+            }
         }
     }
 }
