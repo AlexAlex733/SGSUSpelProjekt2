@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7803034828212250591}
   - component: {fileID: -3654389534984011897}
   - component: {fileID: 2119322456680071053}
+  - component: {fileID: 2302554065340206753}
   m_Layer: 0
   m_Name: creature_spider_0
   m_TagString: Untagged
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2385284245186880000, guid: b40d57cdb617dbc4b85f7ef008bd6814, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -159,3 +160,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.22999999, y: 0.11, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2302554065340206753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332512623312145424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cafaf8777266a3c47890f21a2ecac299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
+  moveSpeed: 2.42
+  currentSpeed: 0
+  chaseRange: 99.2
+  attackRange: 0.55
+  waitTime: 0
+  chaseTime: 0
+  patrolPoint: 0
+  currentState: 0
+  isChasingPlayer: 0
+  isAttackingPlayer: 0
+  patrolpoints: []
+  player: {fileID: 0}
+  noPlayer: {fileID: 0}
+  agent: {fileID: 0}

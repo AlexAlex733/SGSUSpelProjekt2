@@ -64,7 +64,7 @@ public class EnemyAI : MonoBehaviour
 
     void Patrol() // this is for patroling
     {
-        if (isChasingPlayer || isAttackingPlayer) // a check to make sure it doesnt patrol when attack or chase
+        if (isChasingPlayer || isAttackingPlayer || patrolpoints.Length == 0) // a check to make sure it doesnt patrol when attack or chase
             return;
 
         currentState = States.Patroling; // set the state
