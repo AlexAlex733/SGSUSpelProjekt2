@@ -443,7 +443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94989e61db382594c8f69d01eb0b4361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Buttonpressscript
-  player: {fileID: 1722612026824791513, guid: 1cbf8c61cd5f0884cacf821d548a04e7, type: 3}
+  player: {fileID: 4167618885702263449, guid: 961367271a2ebe24b8065b0bd3445d56, type: 3}
   cam: {fileID: 8453453153291151606, guid: 98df8fb9e05dc4d4dafb1f90cbdb5bc3, type: 3}
 --- !u!1 &690814764
 GameObject:

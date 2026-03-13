@@ -9,11 +9,20 @@ public class Buttonpressscript : MonoBehaviour
     {
         //Transition.Instance.StartTransition();
         Instantiate(player, new Vector3(0, 0, 0), Quaternion.identity);
-        Instantiate(cam);
+        try
+        {
+            Instantiate(cam);
+        }
+        catch {; }
+        
         SceneManager.LoadScene(1);
     }
     public void onPressExitButton() //Exits the game- Alexander.
     {
         Application.Quit();
+    }
+    public void specificScene(int scene)
+    {
+        SceneManager.LoadScene(scene);
     }
 }
